@@ -16,7 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install coremltools==6.3 onnx==1.13
+          pip install onnx==1.13 onnx-tf==1.10.0 tensorflow==2.11 coremltools==6.3
 
       - name: Convert model
         run: |
