@@ -23,7 +23,7 @@ jobs:
           python convert.py
 
       - name: Upload CoreML model
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@8d15a65aa43873f64d858c6f7b5f5786fdd6b8c3
         with:
           name: coreml-model
           path: YJ_B_5000_3layer_rgb2rgb_mlp_model.mlmodel
