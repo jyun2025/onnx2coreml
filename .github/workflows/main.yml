@@ -24,7 +24,7 @@ jobs:
         working-directory: ${{ github.workspace }}
 
       - name: Upload CoreML model
-        uses: uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: coreml-model
           path: YJ_B_5000_3layer_rgb2rgb_mlp_model.mlmodel
