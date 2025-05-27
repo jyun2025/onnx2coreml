@@ -3,9 +3,9 @@ from onnx_tf.backend import prepare
 import coremltools as ct
 import os
 
-onnx_model_path = "YJ_B_5000_3layer_rgb2rgb_mlp_model.onnx"
+onnx_model_path = "R_three_rgb2rgb_mlp_model.onnx"
 tf_model_path = "tf_model"
-mlmodel_output_path = "YJ_B_5000_3layer_rgb2rgb_mlp_model.mlmodel"
+mlmodel_output_path = "R_three_rgb2rgb_mlp_model.mlmodel"
 
 print("🚀 載入 ONNX 模型...")
 onnx_model = onnx.load(onnx_model_path)
